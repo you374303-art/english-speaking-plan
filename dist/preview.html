@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>英语口语计划 - UI 预览</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #1a1a2e; color: #fff; font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; padding: 40px 20px; }
+  h1 { text-align: center; font-size: 28px; margin-bottom: 8px; }
+  .subtitle { text-align: center; color: #888; font-size: 14px; margin-bottom: 40px; }
+  .section { max-width: 1200px; margin: 0 auto 60px; }
+  .section-title { font-size: 20px; font-weight: 700; margin-bottom: 20px; padding-left: 16px; border-left: 4px solid #4a90d9; }
+  .gallery { display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; }
+  .screenshot { text-align: center; }
+  .screenshot img { border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.4); max-width: 100%; }
+  .mobile-screenshot img { width: 300px; }
+  .desktop-screenshot img { width: 100%; max-width: 900px; }
+  .screenshot .label { margin-top: 12px; font-size: 14px; font-weight: 600; color: #ccc; }
+</style>
+</head>
+<body>
+  <h1>英语口语计划 · UI 预览</h1>
+  <p class="subtitle">移动端 (390×844) & 桌面端 (1280×800) 全页面截图</p>
+
+  <div class="section">
+    <div class="section-title">📱 移动端</div>
+    <div class="gallery">
+      <div class="screenshot mobile-screenshot">
+        <img src="/screenshots/mobile-today.png" />
+        <div class="label">今日任务</div>
+      </div>
+      <div class="screenshot mobile-screenshot">
+        <img src="/screenshots/mobile-practice.png" />
+        <div class="label">今日复习（单词判题）</div>
+      </div>
+      <div class="screenshot mobile-screenshot">
+        <img src="/screenshots/mobile-plan.png" />
+        <div class="label">计划</div>
+      </div>
+      <div class="screenshot mobile-screenshot">
+        <img src="/screenshots/mobile-stats.png" />
+        <div class="label">统计（周视图）</div>
+      </div>
+      <div class="screenshot mobile-screenshot">
+        <img src="/screenshots/mobile-me.png" />
+        <div class="label">我的</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">🖥️ 桌面端</div>
+    <div class="gallery">
+      <div class="screenshot desktop-screenshot">
+        <img src="/screenshots/desktop-today.png" />
+        <div class="label">今日任务（侧边栏布局）</div>
+      </div>
+      <div class="screenshot desktop-screenshot">
+        <img src="/screenshots/desktop-stats.png" />
+        <div class="label">统计（侧边栏布局）</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
